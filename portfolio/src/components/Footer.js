@@ -2,7 +2,7 @@ import React from 'react';
 import { FaLinkedinIn } from 'react-icons/fa';
 import { FaGithub } from 'react-icons/fa';
 import { FaTwitter } from 'react-icons/fa';
-import styles from './Footer.css';
+import './Footer.css';
 import { IconContext } from 'react-icons';
 
 const Footer = () => {
