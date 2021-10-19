@@ -9,7 +9,6 @@ const Footer = () => {
       <FaLinkedinIn />
       <FaGithub />
       <FaTwitter /> 
-      gfdgsd
     </div>
   );
 }
