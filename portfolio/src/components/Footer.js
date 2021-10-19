@@ -7,19 +7,17 @@ import { IconContext } from 'react-icons';
 
 const Footer = () => {
   return (
-    <>
-      <IconContext.Provider value={{ className: 'main-icons' }}>
-        <IconContext.Provider value={{ className: 'linkedin-icon' }}>
-          <FaLinkedinIn />
-        </IconContext.Provider>
-        <div>
-          <FaGithub />
-        </div>
-        <div>
-          <FaTwitter />
-        </div>
+    <div>
+      <IconContext.Provider value={{ className: 'linkedin-icon' }}>
+        <FaLinkedinIn />
       </IconContext.Provider>
-    </>
+      <IconContext.Provider value={{ className: 'github-icon' }}>
+        <FaGithub />
+      </IconContext.Provider>
+      <IconContext.Provider value={{ className: 'twitter-icon' }}>
+        <FaTwitter />
+      </IconContext.Provider>
+    </div>
   );
 };
 

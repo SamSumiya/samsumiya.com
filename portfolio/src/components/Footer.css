@@ -1,11 +1,29 @@
-.global-class-name {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin-top: 15px;
-}
+
+
 
 .main-icons {
-  color: rgb(15, 61, 101);
+  display: flex;
+  flex-direction: column;
+  margin: 3rem;
+}
+
+
+.linkedin-icon {
+  color: rgb(12, 145, 247);
+  display: flex;
+  flex-direction: column;
+}
+
+
+.github-icon {
+  color: rgb(61, 81, 99);
+  display: flex;
+  flex-direction: column;
+}
+
+
+.twitter-icon {
+  color: rgb(9, 96, 172);
+  display: flex;
+  flex-direction: column;
 }
