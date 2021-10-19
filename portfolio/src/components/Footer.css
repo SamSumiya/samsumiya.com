@@ -1,29 +1,52 @@
 
-
-
-.main-icons {
-  display: flex;
-  flex-direction: column;
-  margin: 3rem;
-}
-
-
 .linkedin-icon {
   color: rgb(12, 145, 247);
   display: flex;
   flex-direction: column;
+  margin-top: 20em;
+  width: 2em;
+  background-color: rgba(118, 115, 115, 0.647);
+  padding: .3rem; 
+  transition: 150ms ease-in-out;
 }
+
+.linkedin-icon:hover {
+  background-color: rgba(152, 148, 148, 0.647);
+  transform: scale(1.2);
+}
+
 
 
 .github-icon {
   color: rgb(61, 81, 99);
   display: flex;
   flex-direction: column;
+  margin-top: .2em;
+  width: 2em; 
+  background-color: rgba(118, 115, 115, 0.647);
+  padding: .3rem; 
+  transition: 150ms ease-in-out;
 }
+
+.github-icon:hover {
+  background-color: rgba(152, 148, 148, 0.647);
+  transform: scale(1.2);
+}
+
 
 
 .twitter-icon {
   color: rgb(9, 96, 172);
   display: flex;
   flex-direction: column;
+  margin-top: .2em;
+  width: 2em; 
+  background-color: rgba(118, 115, 115, 0.647);
+  padding: .3rem; 
+  transition: 150ms ease-in-out;
+}
+
+.twitter-icon:hover {
+  background-color: rgba(152, 148, 148, 0.647);
+  transform: scale(1.2);
 }
