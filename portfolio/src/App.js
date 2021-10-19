@@ -1,8 +1,12 @@
-import Footer from "./Footer";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
 
 function App() {
   return (
-  <Footer />
+    <>
+      <Header  />
+      <Footer />
+    </>
   );
 }
 
