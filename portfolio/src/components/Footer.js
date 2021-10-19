@@ -2,13 +2,13 @@ import React from 'react';
 import { FaLinkedinIn } from 'react-icons/fa';
 import { FaGithub } from 'react-icons/fa';
 import { FaTwitter } from 'react-icons/fa';
-import './Footer.css';
+import styles from './Footer.css';
 import { IconContext } from 'react-icons';
 
 const Footer = () => {
 
   return (
-    <div>
+    <div style={{ marginTop: '20rem'}}>
       <IconContext.Provider value={{ className: 'linkedin-icon' }}>
         <a
           href="https://www.linkedin.com/in/samsumiya/"
