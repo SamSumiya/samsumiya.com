@@ -1,6 +1,8 @@
+import Footer from "./Footer";
+
 function App() {
   return (
-  <h2>Dsdfs</h2>
+  <Footer />
   );
 }
 
