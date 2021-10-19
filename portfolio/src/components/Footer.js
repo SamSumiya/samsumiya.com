@@ -6,16 +6,44 @@ import './Footer.css';
 import { IconContext } from 'react-icons';
 
 const Footer = () => {
+
   return (
-    <div>
-      <IconContext.Provider value={{ className: 'linkedin-icon' }}>
-        <FaLinkedinIn />
-      </IconContext.Provider>
+    <div style={{
+      marginTop: '20rem',
+      display: 'flex', 
+      flexDirection: 'column',
+      justifyContent: 'center',
+      alignItems: 'flex-start',
+    }}>
       <IconContext.Provider value={{ className: 'github-icon' }}>
-        <FaGithub />
+        <a
+          href="https://github.com/SamSumiya"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
+          {' '}
+          <FaGithub />
+        </a>
+      </IconContext.Provider>
+      <IconContext.Provider value={{ className: 'linkedin-icon' }}>
+        <a
+          href="https://www.linkedin.com/in/samsumiya/"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
+          {' '}
+          <FaLinkedinIn />
+        </a>
       </IconContext.Provider>
       <IconContext.Provider value={{ className: 'twitter-icon' }}>
-        <FaTwitter />
+        <a
+          href="https://twitter.com/devchen1"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
+          {' '}
+          <FaTwitter />
+        </a>
       </IconContext.Provider>
     </div>
   );

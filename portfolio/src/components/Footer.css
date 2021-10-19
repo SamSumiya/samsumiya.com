@@ -1,51 +1,56 @@
-
-.linkedin-icon {
-  color: rgb(12, 145, 247);
-  display: flex;
-  flex-direction: column;
-  margin-top: 20em;
-  width: 2em;
-  background-color: rgba(118, 115, 115, 0.647);
-  padding: .5rem; 
-  transition: 150ms ease-in-out;
-}
-
-.linkedin-icon:hover {
-  background-color: rgba(152, 148, 148, 0.647);
-  transform: scale(1.1);
-}
-
-
 .github-icon {
-  color: rgb(61, 81, 99);
+  color: rgb(231, 235, 239);
   display: flex;
   flex-direction: column;
-  /* margin-top: .2em; */
-  width: 2em; 
-  background-color: rgba(118, 115, 115, 0.647);
-  padding: .5rem; 
+  justify-content: center;
+  align-items: flex-start;
+  width: 45%;
+  height: 2.5vh;
+  background-color: rgba(36, 35, 35, 0.647);
+  padding: 0.7rem;
   transition: 150ms ease-in-out;
 }
 
 .github-icon:hover {
   background-color: rgba(152, 148, 148, 0.647);
-  transform: scale(1.1);
+  transform: scale(1.2, 1.15);
+  margin: 0.2rem 0;
 }
 
-
-
-.twitter-icon {
-  color: rgb(9, 96, 172);
+.linkedin-icon {
+  color: rgb(231, 235, 239);
   display: flex;
   flex-direction: column;
-  /* margin-top: .2em; */
-  width: 2em; 
-  background-color: rgba(118, 115, 115, 0.647);
-  padding: .5rem; 
+  justify-content: center;
+  align-items: flex-start;
+  width: 45%;
+  height: 2.5vh;
+  background-color: rgba(41, 115, 242, 0.647);
+  padding: 0.7rem;
+  transition: 150ms ease-in-out;
+}
+
+.linkedin-icon:hover {
+  background-color: rgba(152, 148, 148, 0.647);
+  transform: scale(1.2, 1.15);
+  margin: 0.19rem 0;
+}
+
+.twitter-icon {
+  color: rgb(231, 235, 239);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 45%;
+  height: 2.5vh;
+  background-color: rgba(9, 101, 230, 0.647);
+  padding: 0.7rem;
   transition: 150ms ease-in-out;
 }
 
 .twitter-icon:hover {
   background-color: rgba(152, 148, 148, 0.647);
-  transform: scale(1.1);
+  transform: scale(1.2, 1.15);
+  margin: 0.2rem 0;
 }
