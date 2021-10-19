@@ -1,0 +1,11 @@
+.global-class-name {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.main-icons {
+  color: rgb(15, 61, 101);
+}
