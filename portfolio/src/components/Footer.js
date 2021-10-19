@@ -9,13 +9,21 @@ const Footer = () => {
   return (
     <div>
       <IconContext.Provider value={{ className: 'linkedin-icon' }}>
-        <FaLinkedinIn />
+        <div>
+          <a href="https://www.linkedin.com/in/samsumiya/">
+            <FaLinkedinIn />
+          </a>
+        </div>
       </IconContext.Provider>
       <IconContext.Provider value={{ className: 'github-icon' }}>
-        <FaGithub />
+        <a href="https://github.com/SamSumiya">
+          <FaGithub />
+        </a>
       </IconContext.Provider>
       <IconContext.Provider value={{ className: 'twitter-icon' }}>
-        <FaTwitter />
+        <a href="https://twitter.com/devchen1">
+          <FaTwitter />
+        </a>
       </IconContext.Provider>
     </div>
   );
