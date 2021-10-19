@@ -25,6 +25,7 @@ const Footer = () => {
           target="_blank"
           rel="noreferrer noopener"
         >
+          {' '}
           <FaGithub />
         </a>
       </IconContext.Provider>
@@ -34,6 +35,7 @@ const Footer = () => {
           target="_blank"
           rel="noreferrer noopener"
         >
+          {' '}
           <FaTwitter />
         </a>
       </IconContext.Provider>
