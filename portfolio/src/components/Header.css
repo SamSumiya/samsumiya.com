@@ -1,0 +1,8 @@
+.main-header {
+ display: flex;
+ flex-direction: row;
+ justify-content:  space-evenly;
+ align-items: center;
+ margin-top: 0.2rem;
+}
+
