@@ -10,9 +10,9 @@ const Header = () => {
   return (
     <>
       <div className={'main-header'}>
-      <Link to='/about'>About</Link>
+        <Link to="/about">About</Link>
         <Portfolios />
-        <Contact />
+        <Link to="/contact">Contact</Link>
       </div>
     </>
   );
