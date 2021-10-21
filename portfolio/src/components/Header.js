@@ -6,12 +6,10 @@ import { Link } from 'react-router-dom'
 
 const Header = () => {
 
-
   return (
     <>
       <div className={'main-header'}>
         <Link to="/about">About</Link>
-        <Portfolios />
         <Link to="/contact">Contact</Link>
       </div>
     </>
